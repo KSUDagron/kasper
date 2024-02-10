@@ -8,16 +8,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     # get part of the tag after the `v`
     - name: Extract tag version number
       id: get_version
       uses: battila7/get-version-action@v2
 
-    - uses: actions/setup-node@v2
+    - uses: actions/setup-node@v4
       with:
-        node-version: '16'
+        node-version: '20'
     - run: npm install
     - run: npm run build
 
