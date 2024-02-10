@@ -16,8 +16,8 @@ export class ConfigureApp extends VueFormApplication {
 			title: `${MODULE.TITLE} | ${MODULE.localize('configure.title')}`,
 			id: `${MODULE.ID}-configure`,
 			classes: [],
-			//width: window.innerWidth > 450 ? 450 : window.innerWidth - 100,
-			width: window.innerWidth + 100,
+			width: window.innerWidth > 1000 ? 1000 : window.innerWidth - 100,
+			//width: window.innerWidth + 100,
 			height: "auto",
 			resizable: true,
 			component: Configure
