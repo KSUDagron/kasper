@@ -25,7 +25,7 @@ input[type=range]:focus::-moz-range-thumb {
 }
 
 #kasper-manager {
-  max-width: var(--sidebar-width);
+  /*max-width: var(--sidebar-width);*/
   min-width: var(--sidebar-width);
 }
 #kasper-manager .window-content {
