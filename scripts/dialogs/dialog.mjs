@@ -39,8 +39,8 @@ export class VueDialog extends VueFormApplication {
 			id: `${MODULE.ID}-configure`,
 			classes: [],
 			template: `./modules/${MODULE.ID}/templates/dialog.vue`,
-			resizable: false,
-			width: window.innerWidth > 450 ? 450 : window.innerWidth - 100,
+			resizable: true,
+			//width: window.innerWidth > 450 ? 450 : window.innerWidth - 100,
 			height: "auto",
 		});
 	}
