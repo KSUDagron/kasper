@@ -18,7 +18,8 @@ export class ManagerApp extends VueApplication {
 			title: `${MODULE.TITLE} | ${MODULE.localize('manager.title')}`,
 			id: `${MODULE.ID}-manager`,
 			classes: MODULE.setting('minify') ? ['minify'] : [],
-			width: window.innerWidth > 315 ? 315 : window.innerWidth - 100,
+			//width: window.innerWidth > 315 ? 315 : window.innerWidth - 100,
+			width: window.innerWidth + 100,
 			height: "auto",
 			// TODO: Add Support for Resizing
 			resizable: false,
